@@ -3,7 +3,6 @@ import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 
 const Home = () => {
-
   const kpiOptions = [
     {
       heading: "Establish Objectives",
@@ -36,13 +35,20 @@ const Home = () => {
   return (
     <div id="top" className="w-full bg-[#121212] relative text-[#E1E1E1]">
       <Header />
-      <div className="w-full lg:px-40 px-10 h-[calc(100vh-7rem)] flex flex-col items-center justify-center">
-        <h1 className="lg:text-5xl md:text-4xl text-3xl font-semibold text-center">
+      <div className="w-full lg:px-40 px-10 h-[calc(100vh-7rem)] relative flex flex-col items-center justify-center">
+        <div className="w-full h-full absolute top-0 left-0 bg-red-500">
+          <video
+            src="/assets/video.mp4"
+            autoPlay
+            loop
+            muted
+            className="w-full h-full object-cover"
+            alt=""
+          />
+        </div>
+        <h1 className="lg:text-5xl md:text-4xl text-3xl font-semibold relative z-50 text-center">
           We empower your DAO to achieve positive outcomes.
         </h1>
-        {/* <h4 className="text-xl mt-5 text-[#828282]">
-          Powered by <span className="font-extrabold">UMA</span>
-        </h4> */}
       </div>
       <div id="kpioptions" className="w-full pt-28 lg:px-52 px-10">
         <h3 className="lg:text-2xl text-xl font-semibold mt-6 text-center">
@@ -68,7 +74,10 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <div className="w-full h-screen flex flex-col items-center justify-center">
+      <div
+        className="w-full h-screen flex flex-col items-center justify-center"
+        style={{ background: "url('/assets/image-1.jpeg')" }}
+      >
         <h1 className="lg:text-7xl md:text-5xl text-4xl font-semibold">
           Need Assistance?
         </h1>
