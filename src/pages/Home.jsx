@@ -36,7 +36,7 @@ const Home = () => {
     <div id="top" className="w-full bg-[#121212] relative text-[#E1E1E1]">
       <Header />
       <div className="w-full lg:px-40 px-10 h-[calc(100vh-7rem)] relative flex flex-col items-center justify-center">
-        <div className="w-full h-full absolute top-0 left-0 bg-red-500">
+        <div className="w-full h-full absolute top-0 left-0">
           <video
             src="/assets/video.mp4"
             autoPlay
