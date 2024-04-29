@@ -1,7 +1,6 @@
 import { FiArrowUpRight } from "react-icons/fi";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
-import { useState } from "react";
 
 const Home = () => {
   const kpiOptions = [
