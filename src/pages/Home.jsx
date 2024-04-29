@@ -1,6 +1,7 @@
 import { FiArrowUpRight } from "react-icons/fi";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
+import { useState } from "react";
 
 const Home = () => {
   const kpiOptions = [
@@ -32,11 +33,12 @@ const Home = () => {
     },
   ];
 
-  return (
+
+  return  (
     <div id="top" className="w-full bg-[#121212] relative text-[#E1E1E1]">
       <Header />
-      <div className="w-full lg:px-40 px-10 h-[calc(100vh-7rem)] relative flex flex-col items-center justify-center">
-        <div className="w-full h-full absolute top-0 left-0">
+      <div className="w-full lg:px-40 px-10 h-[calc(100vh-7rem)] relative z-[999] flex flex-col items-center justify-center">
+        <div className="w-full h-full absolute top-0 left-0 z-50">
           <video
             src="/assets/video.mp4"
             autoPlay
@@ -50,7 +52,10 @@ const Home = () => {
           We empower your DAO to achieve positive outcomes.
         </h1>
       </div>
-      <div id="kpioptions" className="w-full pt-28 lg:px-52 px-10">
+      <div
+        id="kpioptions"
+        className="w-full pt-28 lg:px-52 px-10 relative z-[999]"
+      >
         <h3 className="lg:text-2xl text-xl font-semibold mt-6 text-center">
           KPI Pptions
         </h3>
@@ -75,7 +80,11 @@ const Home = () => {
         </div>
       </div>
       <div
-        className="w-full h-screen flex flex-col items-center justify-center"
+        className="w-full h-screen fixed bottom-0 left-0"
+        style={{ background: "url('/assets/image-2.jpeg')" }}
+      ></div>
+      <div
+        className="w-full h-screen relative z-[999] flex flex-col items-center justify-center"
         style={{ background: "url('/assets/image-1.jpeg')" }}
       >
         <h1 className="lg:text-7xl md:text-5xl text-4xl font-semibold">
@@ -96,7 +105,7 @@ const Home = () => {
       </div>
       <div
         id="successtokens"
-        className="w-full min-h-screen pt-28 lg:px-52 px-10"
+        className="w-full min-h-screen pt-28 lg:px-52 px-10 relative z-[999]"
       >
         <h3 className="lg:text-2xl text-xl font-semibold mt-6 text-center">
           Achievement Tokens
@@ -105,7 +114,7 @@ const Home = () => {
           Secure investments for your DAO <br className="lg:block hidden" />{" "}
           from strategic backers
         </h1>
-        <div className="w-full flex flex-col gap-20 py-20">
+        <div className="w-full flex flex-col gap-20 py-20 relative z-[999]">
           {tokens.map((item) => (
             <div
               key={item.heading}

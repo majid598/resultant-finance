@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <header className="w-full">
       <div
-        className={`w-full px-20 head hidden relative bg-[#1F1F1F] text-[#E1E1E1] h-28 items-center justify-between`}
+        className={`w-full px-20 head hidden relative z-[999] bg-[#1F1F1F] text-[#E1E1E1] h-28 items-center justify-between`}
       >
         <div className="text-5xl font-extrabold h-full">
           <img src="/assets/logo.png" className="h-full" alt="" />
@@ -32,7 +32,7 @@ const Header = () => {
         </button>
       </div>
       <nav
-        className={`w-full px-20 header transition-all duration-700 z-30 bg-[#1F1F1F] text-[#E1E1E1] h-28 flex items-center justify-between ${
+        className={`w-full px-20 header transition-all z-[999] duration-700 relative bg-[#1F1F1F] text-[#E1E1E1] h-28 flex items-center justify-between ${
           active ? "active" : ""
         }`}
       >
