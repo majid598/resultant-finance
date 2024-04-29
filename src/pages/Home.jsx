@@ -80,11 +80,11 @@ const Home = () => {
         </div>
       </div>
       <div
-        className="w-full h-screen fixed bottom-0 left-0"
+        className="w-full h-screen fixed bg-cover bg-no-repeat bottom-0 left-0"
         style={{ background: "url('/assets/image-2.jpeg')" }}
       ></div>
       <div
-        className="w-full h-screen relative z-[999] flex flex-col items-center justify-center"
+        className="w-full h-screen relative bg-cover bg-no-repeat z-[999] flex flex-col items-center justify-center"
         style={{ background: "url('/assets/image-1.jpeg')" }}
       >
         <h1 className="lg:text-7xl md:text-5xl text-4xl font-semibold">
