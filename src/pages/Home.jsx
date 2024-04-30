@@ -47,7 +47,7 @@ const Home = () => {
           <img
             src="/assets/3.png"
             className="absolute w-full mx-auto bottom-0"
-            alt="Image can't load"
+            alt="can't load"
           />
         </div>
       </div>
@@ -57,7 +57,7 @@ const Home = () => {
       >
         <div className="flex flex-col w-full items-center">
           <div className="lg:w-80 md:w-72 w-52">
-            <img src="/assets/kpi.png" className="w-full" alt="Image can't load" />
+            <img src="/assets/kpi.png" className="w-full" alt="can't load" />
           </div>
           <h2 className="lg:text-4xl md:text-3xl sm:text-2xl text-xl font-semibold">
             KPI Options
@@ -90,12 +90,12 @@ const Home = () => {
           loop
           muted
           className="w-full h-full object-cover"
-          alt="Image can't load"
+          alt="can't load"
         />
       </div>
       <div className="w-full h-screen relative bg-cover bg-no-repeat z-[9] flex flex-col items-center justify-center">
         <div className="lg:w-2/5 md:w-2/5 lg:left-0 md:left-0 lg:top-1/2 md:top-1/2 lg:-translate-y-1/2 -top-10 md:-translate-y-1/2 absolute">
-          <img src="/assets/contact.png" className="w-full" alt="Image can't load" />
+          <img src="/assets/contact.png" className="w-full" alt="can't load" />
         </div>
         <h1 className="lg:text-7xl relative z-50 md:text-5xl text-4xl font-semibold">
           Need Assistance?
@@ -119,7 +119,7 @@ const Home = () => {
       >
         <div className="flex flex-col w-full items-center">
           <div className="lg:w-80 md:w-72 w-52">
-            <img src="/assets/achieve.png" className="w-full" alt="Image can't load" />
+            <img src="/assets/achieve.png" className="w-full" alt="can't load" />
           </div>
           <h2 className="lg:text-4xl md:text-3xl sm:text-2xl text-xl font-semibold">
             Achievement Tokens
