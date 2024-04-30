@@ -83,7 +83,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <div className="w-full h-screen fixed bg-cover bg-no-repeat bottom-0 left-0">
+      <div className="w-full h-screen fixed bottom-0 left-0">
         <video
           src="/assets/video.mp4"
           autoPlay
