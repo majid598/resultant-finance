@@ -38,7 +38,7 @@ const Home = () => {
       className="w-full bg-[#121212] relative text-white overflow-x-hidden"
     >
       <Header />
-      <div className="w-full lg:px-20 px-10 lg:h-[calc(100vh-7rem)] md:h-[calc(100vh-7rem)] z-[9] flex lg:gap-0 md:gap-0 gap-10 lg:justify-between md:justify-between justify-center lg:flex-row md:flex-row flex-col-reverse h-screen relative items-center">
+      <div className="w-full lg:px-20 px-10 h-[calc(100vh-7rem)] z-[9] flex lg:gap-0 md:gap-0 gap-10 lg:justify-between md:justify-between justify-center lg:flex-row md:flex-row flex-col-reverse relative items-center">
         <h1 className="lg:text-5xl lg:w-1/2 md:w-1/2 w-full md:text-4xl text-3xl font-semibold relative z-50 lg:text-start md:text-start text-center">
           We empower <br className="lg:block hidden" /> your DAO to achieve{" "}
           <br className="lg:block hidden" /> positive outcomes.
@@ -53,7 +53,7 @@ const Home = () => {
       </div>
       <div
         id="kpioptions"
-        className="w-full pt-28 lg:px-52 px-10 relative z-[99]"
+        className="w-full lg:pt-28 md:pt-28 lg:px-52 px-10 relative z-[99]"
       >
         <div className="flex flex-col w-full items-center">
           <div className="lg:w-80 md:w-72 w-52">
@@ -119,7 +119,11 @@ const Home = () => {
       >
         <div className="flex flex-col w-full items-center">
           <div className="lg:w-80 md:w-72 w-52">
-            <img src="/assets/achieve.png" className="w-full" alt="can't load" />
+            <img
+              src="/assets/achieve.png"
+              className="w-full"
+              alt="can't load"
+            />
           </div>
           <h2 className="lg:text-4xl md:text-3xl sm:text-2xl text-xl font-semibold">
             Achievement Tokens
