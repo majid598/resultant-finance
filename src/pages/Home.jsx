@@ -33,7 +33,10 @@ const Home = () => {
   ];
 
   return (
-    <div id="top" className="w-full bg-[#121212] relative text-white overflow-x-hidden">
+    <div
+      id="top"
+      className="w-full bg-[#121212] relative text-white overflow-x-hidden"
+    >
       <Header />
       <div className="w-full lg:px-20 px-10 lg:h-[calc(100vh-7rem)] md:h-[calc(100vh-7rem)] z-[9] flex lg:gap-0 md:gap-0 gap-10 lg:justify-between md:justify-between justify-center lg:flex-row md:flex-row flex-col h-screen relative items-center">
         <h1 className="lg:text-5xl lg:w-1/2 md:w-1/2 w-full md:text-4xl text-3xl font-semibold relative z-50 lg:text-start md:text-start text-center">
@@ -52,13 +55,13 @@ const Home = () => {
         id="kpioptions"
         className="w-full pt-28 lg:px-52 px-10 relative z-[99]"
       >
-        <h3 className="lg:text-2xl text-xl font-semibold mt-6 text-center">
-          KPI Pptions
-        </h3>
-        <h1 className="lg:text-3xl md:text-xl sm:text-xl text-sm lg:mt-5 md:mt-5 text-center">
-          Unify your DAO community towards <br className="lg:block hidden" /> a
-          shared objective.
-        </h1>
+        <div className="flex w-full items-center">
+          <img src="/assets/kpi.png" className="" alt="" />
+          <h1 className="lg:text-3xl md:text-xl sm:text-xl text-sm lg:mt-5 md:mt-5 lg:text-start md:text-start text-center">
+            Unify your DAO community towards <br className="lg:block hidden" />
+            shared objective.
+          </h1>
+        </div>
         <div className="w-full flex flex-col gap-20 py-20">
           {kpiOptions.map((item) => (
             <div
@@ -106,13 +109,16 @@ const Home = () => {
         id="successtokens"
         className="w-full min-h-screen pt-28 lg:px-52 px-10 relative z-[9]"
       >
-        <h3 className="lg:text-2xl text-xl font-semibold mt-6 text-center">
-          Achievement Tokens
-        </h3>
-        <h1 className="lg:text-3xl md:text-xl sm:text-xl text-sm lg:mt-5 md:mt-5 text-center">
-          Secure investments for your DAO <br className="lg:block hidden" />{" "}
-          from strategic backers
-        </h1>
+        <div className="flex w-full items-center">
+          <div className="w-80">
+            <img src="/assets/achieve.png" className="w-full" alt="" />
+          </div>
+          <h1 className="lg:text-3xl md:text-xl sm:text-xl text-sm lg:mt-5 md:mt-5  lg:text-start md:text-start text-center">
+            Secure investments for your DAO <br className="lg:block hidden" />{" "}
+            from strategic backers
+          </h1>
+        </div>
+
         <div className="w-full flex flex-col gap-20 py-20 relative">
           {tokens.map((item) => (
             <div
