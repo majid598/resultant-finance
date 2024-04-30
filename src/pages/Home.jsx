@@ -47,7 +47,7 @@ const Home = () => {
           <img
             src="/assets/3.png"
             className="absolute w-full mx-auto bottom-0"
-            alt=""
+            alt="Image can't load"
           />
         </div>
       </div>
@@ -55,13 +55,14 @@ const Home = () => {
         id="kpioptions"
         className="w-full pt-28 lg:px-52 px-10 relative z-[99]"
       >
-        <div className="flex lg:flex-row md:flex-row flex-col w-full items-center">
-          <div
-            className="lg:w-80 md:w-72 w-52"
-          >
-            <img src="/assets/kpi.png" className="w-full" alt="" />
+        <div className="flex flex-col w-full items-center">
+          <div className="lg:w-80 md:w-72 w-52">
+            <img src="/assets/kpi.png" className="w-full" alt="Image can't load" />
           </div>
-          <h1 className="lg:text-3xl md:text-xl sm:text-xl text-sm lg:mt-5 md:mt-5 lg:text-start md:text-start text-center">
+          <h2 className="lg:text-4xl md:text-3xl sm:text-2xl text-xl font-semibold">
+            KPI Options
+          </h2>
+          <h1 className="lg:text-3xl md:text-xl sm:text-xl text-sm lg:mt-5 md:mt-5 text-center">
             Unify your DAO community towards <br className="lg:block hidden" />
             shared objective.
           </h1>
@@ -89,14 +90,17 @@ const Home = () => {
           loop
           muted
           className="w-full h-full object-cover"
-          alt=""
+          alt="Image can't load"
         />
       </div>
       <div className="w-full h-screen relative bg-cover bg-no-repeat z-[9] flex flex-col items-center justify-center">
-        <h1 className="lg:text-7xl md:text-5xl text-4xl font-semibold">
+        <div className="lg:w-2/5 md:w-2/5 lg:left-0 md:left-0 lg:top-1/2 md:top-1/2 lg:-translate-y-1/2 -top-10 md:-translate-y-1/2 absolute">
+          <img src="/assets/contact.png" className="w-full" alt="Image can't load" />
+        </div>
+        <h1 className="lg:text-7xl relative z-50 md:text-5xl text-4xl font-semibold">
           Need Assistance?
         </h1>
-        <h3 className="lg:text-xl lg:font-semibold mt-6 text-center px-6 lg:px-0">
+        <h3 className="lg:text-xl  relative z-50 lg:font-semibold mt-6 text-center px-6 lg:px-0">
           Whether it's defining KPIs or strategizing distribution, we're here to
           support <br className="hidden lg:block" /> your success.
         </h3>
@@ -113,11 +117,14 @@ const Home = () => {
         id="successtokens"
         className="w-full min-h-screen pt-28 lg:px-52 px-10 relative z-[9]"
       >
-        <div className="flex lg:flex-row md:flex-row flex-col w-full items-center">
+        <div className="flex flex-col w-full items-center">
           <div className="lg:w-80 md:w-72 w-52">
-            <img src="/assets/achieve.png" className="w-full" alt="" />
+            <img src="/assets/achieve.png" className="w-full" alt="Image can't load" />
           </div>
-          <h1 className="lg:text-3xl md:text-xl sm:text-xl text-sm lg:mt-5 md:mt-5  lg:text-start md:text-start text-center">
+          <h2 className="lg:text-4xl md:text-3xl sm:text-2xl text-xl font-semibold">
+            Achievement Tokens
+          </h2>
+          <h1 className="lg:text-3xl md:text-xl sm:text-xl text-sm lg:mt-5 md:mt-5 text-center">
             Secure investments for your DAO <br className="xl:block hidden" />
             from strategic backers
           </h1>
