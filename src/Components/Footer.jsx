@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="lg:h-40 md:h-40 sm:h-32 h-20">
             <img src="/assets/1.png" className="h-full" alt="" />
           </div>
-          <h1 className="lg:text-2xl md:text-2xl sm:text-lg font-semibold">&copy; Rsultant .</h1>
+          <h1 className="lg:text-2xl md:text-2xl sm:text-lg font-semibold">&copy; Resultant .</h1>
         </div>
         <div className="flex gap-4 lg:text-2xl md:text-2xl sm:text-xl text-lg">
           <FaTwitter />
