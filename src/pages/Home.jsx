@@ -55,8 +55,12 @@ const Home = () => {
         id="kpioptions"
         className="w-full pt-28 lg:px-52 px-10 relative z-[99]"
       >
-        <div className="flex w-full items-center">
-          <img src="/assets/kpi.png" className="" alt="" />
+        <div className="flex lg:flex-row md:flex-row flex-col w-full items-center">
+          <div
+            className="lg:w-80 md:w-72 w-52"
+          >
+            <img src="/assets/kpi.png" className="w-full" alt="" />
+          </div>
           <h1 className="lg:text-3xl md:text-xl sm:text-xl text-sm lg:mt-5 md:mt-5 lg:text-start md:text-start text-center">
             Unify your DAO community towards <br className="lg:block hidden" />
             shared objective.
@@ -109,12 +113,12 @@ const Home = () => {
         id="successtokens"
         className="w-full min-h-screen pt-28 lg:px-52 px-10 relative z-[9]"
       >
-        <div className="flex w-full items-center">
-          <div className="w-80">
+        <div className="flex lg:flex-row md:flex-row flex-col w-full items-center">
+          <div className="lg:w-80 md:w-72 w-52">
             <img src="/assets/achieve.png" className="w-full" alt="" />
           </div>
           <h1 className="lg:text-3xl md:text-xl sm:text-xl text-sm lg:mt-5 md:mt-5  lg:text-start md:text-start text-center">
-            Secure investments for your DAO <br className="lg:block hidden" />{" "}
+            Secure investments for your DAO <br className="xl:block hidden" />
             from strategic backers
           </h1>
         </div>
