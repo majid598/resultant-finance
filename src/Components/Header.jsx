@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <header className="w-full">
       <div
-        className={`w-full px-20 head hidden relative z-[99] bg-white text-black h-28 items-center justify-between`}
+        className={`w-full px-6 head hidden relative z-[99] bg-white text-black h-28 items-center justify-between`}
       >
         <div className="text-5xl font-extrabold h-full">
           <img src="/assets/logo.png" className="h-full" alt="" />
@@ -80,8 +80,8 @@ const Header = () => {
             <IoClose />
           </button>
         </div>
-        <div className="h-full">
-          <img src="/assets/2.png" className="h-full" alt="" />
+        <div className="lg:h-full md:h-full lg:w-auto md:w-auto w-full lg:mt-0 md:mt-0 sm:mt-0 mt-20">
+          <img src="/assets/2.png" className="lg:h-full md:h-full" alt="" />
         </div>
       </nav>
     </header>
