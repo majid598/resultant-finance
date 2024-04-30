@@ -106,4 +106,8 @@ body {
   .xs\:w-full{
     width: 100%;
   }
+  .xs\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
 }

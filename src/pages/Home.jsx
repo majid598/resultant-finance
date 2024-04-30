@@ -51,10 +51,10 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="z-[9] relative lg:py-20 md:py-16 py-0">
+      <div className="z-[9] relative lg:pt-20 md:pt-16 pt-0 xs:px-10">
         <img
-          src="/assets/chart.jpeg"
-          className="mx-auto lg:w-[25rem] md:w-[25rem] sm:w-[25rem] w-full"
+          src="/assets/chart.png"
+          className="mx-auto lg:w-auto md:w-auto sm:w-auto xs:w-full"
           alt=""
         />
       </div>
