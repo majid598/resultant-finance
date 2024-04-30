@@ -38,14 +38,6 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
-  .sidebar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: transparent !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
   .md-flex-col {
     flex-direction: column;
   }
@@ -75,9 +67,6 @@ body {
 }
 
 @media only screen and (max-width: 850px) {
-  .md-bg-red {
-    /* background-color: red; */
-  }
   .btn {
     display: block;
   }
@@ -92,7 +81,7 @@ body {
     width: 25rem;
     height: 100vh;
     position: fixed;
-    z-index: 99;
+    z-index: 999;
     right: -100%;
     bottom: 0;
     padding: 7rem 0;

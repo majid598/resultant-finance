@@ -3,6 +3,8 @@ import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 
 const Home = () => {
+ 
+
   const kpiOptions = [
     {
       heading: "Establish Objectives",
@@ -32,28 +34,17 @@ const Home = () => {
     },
   ];
 
-
-  return  (
-    <div id="top" className="w-full bg-[#121212] relative text-[#E1E1E1]">
+  return (
+    <div id="top" className="w-full bg-[#121212] relative text-white">
       <Header />
-      <div className="w-full lg:px-40 px-10 h-[calc(100vh-7rem)] relative z-[999] flex flex-col items-center justify-center">
-        <div className="w-full h-full absolute top-0 left-0 z-50">
-          <video
-            src="/assets/video.mp4"
-            autoPlay
-            loop
-            muted
-            className="w-full h-full object-cover"
-            alt=""
-          />
-        </div>
+      <div className="w-full lg:px-40 px-10 h-[calc(100vh-7rem)] relative  flex flex-col items-center justify-center">
         <h1 className="lg:text-5xl md:text-4xl text-3xl font-semibold relative z-50 text-center">
           We empower your DAO to achieve positive outcomes.
         </h1>
       </div>
       <div
         id="kpioptions"
-        className="w-full pt-28 lg:px-52 px-10 relative z-[999]"
+        className="w-full pt-28 lg:px-52 px-10 relative z-[99]"
       >
         <h3 className="lg:text-2xl text-xl font-semibold mt-6 text-center">
           KPI Pptions
@@ -78,14 +69,17 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <div
-        className="w-full h-screen fixed bg-cover bg-no-repeat bottom-0 left-0"
-        style={{ background: "url('/assets/image-2.jpeg')" }}
-      ></div>
-      <div
-        className="w-full h-screen relative bg-cover bg-no-repeat z-[999] flex flex-col items-center justify-center"
-        style={{ background: "url('/assets/image-1.jpeg')" }}
-      >
+      <div className="w-full h-screen fixed bg-cover bg-no-repeat bottom-0 left-0">
+        <video
+          src="/assets/video.mp4"
+          autoPlay
+          loop
+          muted
+          className="w-full h-full object-cover"
+          alt=""
+        />
+      </div>
+      <div className="w-full h-screen relative bg-cover bg-no-repeat z-[9] flex flex-col items-center justify-center">
         <h1 className="lg:text-7xl md:text-5xl text-4xl font-semibold">
           Need Assistance?
         </h1>
@@ -104,7 +98,7 @@ const Home = () => {
       </div>
       <div
         id="successtokens"
-        className="w-full min-h-screen pt-28 lg:px-52 px-10 relative z-[999]"
+        className="w-full min-h-screen pt-28 lg:px-52 px-10 relative z-[9]"
       >
         <h3 className="lg:text-2xl text-xl font-semibold mt-6 text-center">
           Achievement Tokens
@@ -113,7 +107,7 @@ const Home = () => {
           Secure investments for your DAO <br className="lg:block hidden" />{" "}
           from strategic backers
         </h1>
-        <div className="w-full flex flex-col gap-20 py-20 relative z-[999]">
+        <div className="w-full flex flex-col gap-20 py-20 relative">
           {tokens.map((item) => (
             <div
               key={item.heading}
