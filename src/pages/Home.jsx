@@ -38,12 +38,12 @@ const Home = () => {
       className="w-full bg-[#121212] relative text-white overflow-x-hidden"
     >
       <Header />
-      <div className="w-full lg:px-20 px-10 h-[calc(100vh-7rem)] z-[9] flex lg:gap-0 md:gap-0 gap-10 lg:justify-between md:justify-between justify-center lg:flex-row md:flex-row flex-col-reverse relative items-center">
+      <div className="w-full lg:px-20 px-10 h-[calc(100vh-7rem)] z-[9] justify-center flex lg:gap-0 md:gap-0 gap-10 lg:justify-between md:justify-between lg:flex-row md:flex-row flex-col-reverse relative items-center">
         <h1 className="lg:text-5xl lg:w-1/2 md:w-1/2 w-full md:text-4xl text-3xl font-semibold relative z-50 lg:text-start md:text-start text-center">
           We empower <br className="lg:block hidden" /> your DAO to achieve{" "}
           <br className="lg:block hidden" /> positive outcomes.
         </h1>
-        <div className="lg:w-2/5 xs:w-full md:w-2/5 w-3/5 lg:h-full md:h-full lg:mt-0 md:mt-0 mt-4 relative">
+        <div className="lg:w-2/5 xs:w-full md:w-2/5 h-3/5 w-3/5 lg:h-full md:h-full relative">
           <img
             src="/assets/3.png"
             className="absolute w-full mx-auto bottom-0"
