@@ -20,6 +20,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  overflow-x: hidden;
 }
 
 .font-bold {
@@ -78,7 +79,7 @@ body {
   }
   .header {
     flex-direction: column;
-    width: 25rem;
+    width: 20rem;
     height: 100vh;
     position: fixed;
     z-index: 999;
@@ -98,5 +99,11 @@ body {
       width: 100%;
       text-align: start;
     }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .xs\:w-full{
+    width: 100%;
   }
 }

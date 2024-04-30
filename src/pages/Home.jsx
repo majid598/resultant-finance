@@ -3,8 +3,6 @@ import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 
 const Home = () => {
- 
-
   const kpiOptions = [
     {
       heading: "Establish Objectives",
@@ -35,12 +33,20 @@ const Home = () => {
   ];
 
   return (
-    <div id="top" className="w-full bg-[#121212] relative text-white">
+    <div id="top" className="w-full bg-[#121212] relative text-white overflow-x-hidden">
       <Header />
-      <div className="w-full lg:px-40 px-10 h-[calc(100vh-7rem)] relative  flex flex-col items-center justify-center">
-        <h1 className="lg:text-5xl md:text-4xl text-3xl font-semibold relative z-50 text-center">
-          We empower your DAO to achieve positive outcomes.
+      <div className="w-full lg:px-20 px-10 lg:h-[calc(100vh-7rem)] md:h-[calc(100vh-7rem)] z-[9] flex lg:gap-0 md:gap-0 gap-10 lg:justify-between md:justify-between justify-center lg:flex-row md:flex-row flex-col h-screen relative items-center">
+        <h1 className="lg:text-5xl lg:w-1/2 md:w-1/2 w-full md:text-4xl text-3xl font-semibold relative z-50 lg:text-start md:text-start text-center">
+          We empower <br className="lg:block hidden" /> your DAO to achieve{" "}
+          <br className="lg:block hidden" /> positive outcomes.
         </h1>
+        <div className="lg:w-2/5 xs:w-full md:w-2/5 w-3/5 lg:h-full md:h-full h-1/2 lg:mt-0 md:mt-0 mt-4 relative">
+          <img
+            src="/assets/3.png"
+            className="absolute w-full mx-auto bottom-0"
+            alt=""
+          />
+        </div>
       </div>
       <div
         id="kpioptions"

@@ -36,7 +36,7 @@ const Header = () => {
           active ? "active" : ""
         }`}
       >
-        <div className="text-5xl logo font-extrabold h-full">
+        <div className="logo h-full">
           <img src="/assets/logo.png" className="h-full" alt="" />
         </div>
         <div className="flex links gap-12 md-bg-red">
@@ -80,7 +80,9 @@ const Header = () => {
             <IoClose />
           </button>
         </div>
-        <div></div>
+        <div className="h-full">
+          <img src="/assets/2.png" className="h-full" alt="" />
+        </div>
       </nav>
     </header>
   );
