@@ -51,6 +51,13 @@ const Home = () => {
           />
         </div>
       </div>
+      <div className="z-[9] relative lg:py-20 md:py-16 py-0">
+        <img
+          src="/assets/chart.jpeg"
+          className="mx-auto lg:w-[25rem] md:w-[25rem] sm:w-[25rem] w-full"
+          alt=""
+        />
+      </div>
       <div
         id="kpioptions"
         className="w-full lg:pt-28 md:pt-28 lg:px-52 px-10 relative z-[99]"
