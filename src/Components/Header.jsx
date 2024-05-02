@@ -17,7 +17,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full">
+    <header className="w-full relative">
       <div
         className={`w-full px-6 head hidden relative z-[99] bg-white text-black h-28 items-center justify-between`}
       >
